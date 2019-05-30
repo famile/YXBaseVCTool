@@ -1,0 +1,24 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - MJExtension (3.0.15.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - FDFullscreenPopGesture (= 1.1)
+  - MJExtension
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - MJExtension
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+
+PODFILE CHECKSUM: c96b4d4222925c4fa94c81567e3b08332e87d0d3
+
+COCOAPODS: 1.7.0.beta.1

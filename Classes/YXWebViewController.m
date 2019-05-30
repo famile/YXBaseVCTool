@@ -212,7 +212,7 @@
         [self removeCache];
         [self.navigationController popViewControllerAnimated:YES];
     }else{
-        CGFloat currrentTimesp = [CommonTools timeSp] * 1000;
+        CGFloat currrentTimesp = [self timeSp] * 1000;
         CGFloat differValue = currrentTimesp - _lastTimeSP;
         _lastTimeSP = currrentTimesp;
         if ([self.webView canGoBack] && differValue > 500) {
@@ -235,6 +235,19 @@
 }
 
 #pragma mark - private method
+- (NSTimeInterval)timeSp
+{
+    NSDate *datenow = [NSDate date];
+    return [datenow timeIntervalSince1970];
+}
+- (NSString *)getSystemVersion{
+    NSString *systemName = [UIDevice currentDevice].systemName;
+    //    DLog(@"当前系统名称-->%@", systemName);
+    NSString *systemVersion = [UIDevice currentDevice].systemVersion;
+    //    DLog(@"当前系统版本号-->%@", systemVersion);
+    return systemVersion;
+}
+
 - (void)addScriptHandleName:(NSString *)name{
     if ([self.scriptNameSet containsObject:name]) {
         
@@ -244,7 +257,7 @@
 }
 
 - (void)removeCache{
-    if ([[CommonTools getSystemVersion] floatValue] > 9.0) {
+    if ([[self getSystemVersion] floatValue] > 9.0) {
         NSSet *websiteDataTypes = [NSSet setWithArray:@[
                                                         WKWebsiteDataTypeDiskCache,
                                                         WKWebsiteDataTypeOfflineWebApplicationCache,
@@ -297,7 +310,7 @@
 - (void)initUI{
     WS(ws)
     
-    _lastTimeSP = [CommonTools timeSp] * 1000;
+    _lastTimeSP = [self timeSp] * 1000;
     [self createNav];
     [self.view addSubview:self.webView];
     

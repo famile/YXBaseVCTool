@@ -9,7 +9,6 @@
 #ifndef YXBaseVCHeader_h
 #define YXBaseVCHeader_h
 
-#import "CommonTools.h"
 #import "MyControl.h"
 #import "UIView+Extension.h"
 

@@ -91,6 +91,9 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+  s.framework = "WebKit"
+  s.framework = "UIKit"
+  
   s.dependency "MJExtension"
   s.dependency "DZNEmptyDataSet"
   s.dependency "FDFullscreenPopGesture","~> 1.1"

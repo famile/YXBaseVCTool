@@ -7,31 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6BDEE2D229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEDF6229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.m */; };
-		A6BDEE2E229EA60D002CD7F7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEDF9229EA60D002CD7F7 /* UIView+Extension.m */; };
-		A6BDEE2F229EA60D002CD7F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEDFA229EA60D002CD7F7 /* BaseViewController.m */; };
-		A6BDEE30229EA60D002CD7F7 /* YXBaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6BDEDFB229EA60D002CD7F7 /* YXBaseVC.bundle */; };
-		A6BDEE31229EA60D002CD7F7 /* YXBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEDFE229EA60D002CD7F7 /* YXBaseTableViewController.m */; };
-		A6BDEE32229EA60D002CD7F7 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE04229EA60D002CD7F7 /* CommonTools.m */; };
-		A6BDEE33229EA60D002CD7F7 /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE06229EA60D002CD7F7 /* MyControl.m */; };
-		A6BDEE34229EA60D002CD7F7 /* YXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE07229EA60D002CD7F7 /* YXWebViewController.m */; };
-		A6BDEE43229EA60D002CD7F7 /* YXBaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE28229EA60D002CD7F7 /* YXBaseDetailViewController.m */; };
-		A6BDEE44229EA60D002CD7F7 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE2A229EA60D002CD7F7 /* NavigationViewController.m */; };
-		A6BDEE45229EA60D002CD7F7 /* YXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE2B229EA60D002CD7F7 /* YXBaseModel.m */; };
-		A6BDEE66229EA8E3002CD7F7 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE4B229EA8E3002CD7F7 /* MJPropertyType.m */; };
-		A6BDEE67229EA8E3002CD7F7 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE4E229EA8E3002CD7F7 /* NSObject+MJKeyValue.m */; };
-		A6BDEE68229EA8E3002CD7F7 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE4F229EA8E3002CD7F7 /* MJProperty.m */; };
-		A6BDEE69229EA8E3002CD7F7 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE51229EA8E3002CD7F7 /* NSObject+MJCoding.m */; };
-		A6BDEE6A229EA8E3002CD7F7 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE53229EA8E3002CD7F7 /* MJExtensionConst.m */; };
-		A6BDEE6B229EA8E3002CD7F7 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE54229EA8E3002CD7F7 /* NSObject+MJProperty.m */; };
-		A6BDEE6C229EA8E3002CD7F7 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE56229EA8E3002CD7F7 /* NSObject+MJClass.m */; };
-		A6BDEE6D229EA8E3002CD7F7 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE57229EA8E3002CD7F7 /* NSString+MJExtension.m */; };
-		A6BDEE6E229EA8E3002CD7F7 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE58229EA8E3002CD7F7 /* MJPropertyKey.m */; };
-		A6BDEE6F229EA8E3002CD7F7 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE5C229EA8E3002CD7F7 /* MJFoundation.m */; };
-		A6BDEE70229EA8E3002CD7F7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A6BDEE5E229EA8E3002CD7F7 /* LICENSE */; };
-		A6BDEE71229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE61229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		A6BDEE72229EA8E3002CD7F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6BDEE62229EA8E3002CD7F7 /* README.md */; };
-		A6BDEE73229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE64229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.m */; };
+		6F0C27A74CC1DC073E4D5617 /* libPods-YXBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 827CCA7C62B1019704CF98ED /* libPods-YXBaseProject.a */; };
+		A6BDEE8C229F6FD2002CD7F7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE76229F6FD1002CD7F7 /* UIView+Extension.m */; };
+		A6BDEE8D229F6FD2002CD7F7 /* YXWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE77229F6FD1002CD7F7 /* YXWeakScriptMessageDelegate.m */; };
+		A6BDEE8E229F6FD2002CD7F7 /* YXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE79229F6FD1002CD7F7 /* YXWebViewController.m */; };
+		A6BDEE90229F6FD2002CD7F7 /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE7E229F6FD1002CD7F7 /* MyControl.m */; };
+		A6BDEE91229F6FD2002CD7F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE7F229F6FD1002CD7F7 /* BaseViewController.m */; };
+		A6BDEE92229F6FD2002CD7F7 /* YXBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE82229F6FD1002CD7F7 /* YXBaseTableViewController.m */; };
+		A6BDEE93229F6FD2002CD7F7 /* YXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE84229F6FD1002CD7F7 /* YXBaseModel.m */; };
+		A6BDEE94229F6FD2002CD7F7 /* YXBaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6BDEE85229F6FD1002CD7F7 /* YXBaseVC.bundle */; };
+		A6BDEE95229F6FD2002CD7F7 /* YXBaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE87229F6FD2002CD7F7 /* YXBaseDetailViewController.m */; };
+		A6BDEE96229F6FD2002CD7F7 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE89229F6FD2002CD7F7 /* NavigationViewController.m */; };
 		A6F22122228BFAEB0099127F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F22121228BFAEB0099127F /* AppDelegate.m */; };
 		A6F22125228BFAEB0099127F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F22124228BFAEB0099127F /* ViewController.m */; };
 		A6F22128228BFAEB0099127F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F22126228BFAEB0099127F /* Main.storyboard */; };
@@ -61,55 +47,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6BDEDF5229EA60D002CD7F7 /* YXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebViewController.h; sourceTree = "<group>"; };
-		A6BDEDF6229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
-		A6BDEDF8229EA60D002CD7F7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		A6BDEDF9229EA60D002CD7F7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		A6BDEDFA229EA60D002CD7F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		A6BDEDFB229EA60D002CD7F7 /* YXBaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YXBaseVC.bundle; sourceTree = "<group>"; };
-		A6BDEDFC229EA60D002CD7F7 /* YXBaseVCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseVCHeader.h; sourceTree = "<group>"; };
-		A6BDEDFD229EA60D002CD7F7 /* YXBaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseDetailViewController.h; sourceTree = "<group>"; };
-		A6BDEDFE229EA60D002CD7F7 /* YXBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseTableViewController.m; sourceTree = "<group>"; };
-		A6BDEDFF229EA60D002CD7F7 /* YXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseModel.h; sourceTree = "<group>"; };
-		A6BDEE00229EA60D002CD7F7 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
-		A6BDEE01229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
-		A6BDEE03229EA60D002CD7F7 /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
-		A6BDEE04229EA60D002CD7F7 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
-		A6BDEE05229EA60D002CD7F7 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
-		A6BDEE06229EA60D002CD7F7 /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
-		A6BDEE07229EA60D002CD7F7 /* YXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebViewController.m; sourceTree = "<group>"; };
-		A6BDEE28229EA60D002CD7F7 /* YXBaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseDetailViewController.m; sourceTree = "<group>"; };
-		A6BDEE29229EA60D002CD7F7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		A6BDEE2A229EA60D002CD7F7 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
-		A6BDEE2B229EA60D002CD7F7 /* YXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseModel.m; sourceTree = "<group>"; };
-		A6BDEE2C229EA60D002CD7F7 /* YXBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseTableViewController.h; sourceTree = "<group>"; };
-		A6BDEE48229EA8E3002CD7F7 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
-		A6BDEE49229EA8E3002CD7F7 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
-		A6BDEE4A229EA8E3002CD7F7 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
-		A6BDEE4B229EA8E3002CD7F7 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
-		A6BDEE4C229EA8E3002CD7F7 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		A6BDEE4D229EA8E3002CD7F7 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
-		A6BDEE4E229EA8E3002CD7F7 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		A6BDEE4F229EA8E3002CD7F7 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
-		A6BDEE50229EA8E3002CD7F7 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
-		A6BDEE51229EA8E3002CD7F7 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		A6BDEE52229EA8E3002CD7F7 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
-		A6BDEE53229EA8E3002CD7F7 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
-		A6BDEE54229EA8E3002CD7F7 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		A6BDEE55229EA8E3002CD7F7 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
-		A6BDEE56229EA8E3002CD7F7 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
-		A6BDEE57229EA8E3002CD7F7 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		A6BDEE58229EA8E3002CD7F7 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
-		A6BDEE59229EA8E3002CD7F7 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
-		A6BDEE5A229EA8E3002CD7F7 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		A6BDEE5B229EA8E3002CD7F7 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		A6BDEE5C229EA8E3002CD7F7 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
-		A6BDEE5E229EA8E3002CD7F7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A6BDEE60229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		A6BDEE61229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		A6BDEE62229EA8E3002CD7F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A6BDEE64229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
-		A6BDEE65229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		43E840A0D904850AAA2F1689 /* Pods-YXBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-YXBaseProject/Pods-YXBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5A17C9F72ACA091BED9C5D0C /* Pods-YXBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXBaseProject.release.xcconfig"; path = "Target Support Files/Pods-YXBaseProject/Pods-YXBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		827CCA7C62B1019704CF98ED /* libPods-YXBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BDEE75229F6FD1002CD7F7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A6BDEE76229F6FD1002CD7F7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A6BDEE77229F6FD1002CD7F7 /* YXWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		A6BDEE78229F6FD1002CD7F7 /* YXBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseTableViewController.h; sourceTree = "<group>"; };
+		A6BDEE79229F6FD1002CD7F7 /* YXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebViewController.m; sourceTree = "<group>"; };
+		A6BDEE7B229F6FD1002CD7F7 /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
+		A6BDEE7E229F6FD1002CD7F7 /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
+		A6BDEE7F229F6FD1002CD7F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A6BDEE80229F6FD1002CD7F7 /* YXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebViewController.h; sourceTree = "<group>"; };
+		A6BDEE81229F6FD1002CD7F7 /* YXBaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseDetailViewController.h; sourceTree = "<group>"; };
+		A6BDEE82229F6FD1002CD7F7 /* YXBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseTableViewController.m; sourceTree = "<group>"; };
+		A6BDEE83229F6FD1002CD7F7 /* YXBaseVCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseVCHeader.h; sourceTree = "<group>"; };
+		A6BDEE84229F6FD1002CD7F7 /* YXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseModel.m; sourceTree = "<group>"; };
+		A6BDEE85229F6FD1002CD7F7 /* YXBaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YXBaseVC.bundle; sourceTree = "<group>"; };
+		A6BDEE86229F6FD1002CD7F7 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		A6BDEE87229F6FD2002CD7F7 /* YXBaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseDetailViewController.m; sourceTree = "<group>"; };
+		A6BDEE88229F6FD2002CD7F7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A6BDEE89229F6FD2002CD7F7 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		A6BDEE8A229F6FD2002CD7F7 /* YXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseModel.h; sourceTree = "<group>"; };
+		A6BDEE8B229F6FD2002CD7F7 /* YXWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		A6F2211D228BFAEB0099127F /* YXBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F22120228BFAEB0099127F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6F22121228BFAEB0099127F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0C27A74CC1DC073E4D5617 /* libPods-YXBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,116 +116,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203706BE3E6A86DE9A39E606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827CCA7C62B1019704CF98ED /* libPods-YXBaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403D820516E1561F13404804 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E840A0D904850AAA2F1689 /* Pods-YXBaseProject.debug.xcconfig */,
+				5A17C9F72ACA091BED9C5D0C /* Pods-YXBaseProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A6BDEDF4229EA60D002CD7F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A6BDEDF5229EA60D002CD7F7 /* YXWebViewController.h */,
-				A6BDEDF6229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.m */,
-				A6BDEDF7229EA60D002CD7F7 /* Category */,
-				A6BDEDFA229EA60D002CD7F7 /* BaseViewController.m */,
-				A6BDEDFB229EA60D002CD7F7 /* YXBaseVC.bundle */,
-				A6BDEDFC229EA60D002CD7F7 /* YXBaseVCHeader.h */,
-				A6BDEDFD229EA60D002CD7F7 /* YXBaseDetailViewController.h */,
-				A6BDEDFE229EA60D002CD7F7 /* YXBaseTableViewController.m */,
-				A6BDEDFF229EA60D002CD7F7 /* YXBaseModel.h */,
-				A6BDEE00229EA60D002CD7F7 /* NavigationViewController.h */,
-				A6BDEE01229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.h */,
-				A6BDEE02229EA60D002CD7F7 /* Common */,
-				A6BDEE07229EA60D002CD7F7 /* YXWebViewController.m */,
-				A6BDEE28229EA60D002CD7F7 /* YXBaseDetailViewController.m */,
-				A6BDEE29229EA60D002CD7F7 /* BaseViewController.h */,
-				A6BDEE2A229EA60D002CD7F7 /* NavigationViewController.m */,
-				A6BDEE2B229EA60D002CD7F7 /* YXBaseModel.m */,
-				A6BDEE2C229EA60D002CD7F7 /* YXBaseTableViewController.h */,
+				A6BDEE88229F6FD2002CD7F7 /* BaseViewController.h */,
+				A6BDEE7F229F6FD1002CD7F7 /* BaseViewController.m */,
+				A6BDEE74229F6FD1002CD7F7 /* Category */,
+				A6BDEE7A229F6FD1002CD7F7 /* Common */,
+				A6BDEE86229F6FD1002CD7F7 /* NavigationViewController.h */,
+				A6BDEE89229F6FD2002CD7F7 /* NavigationViewController.m */,
+				A6BDEE81229F6FD1002CD7F7 /* YXBaseDetailViewController.h */,
+				A6BDEE87229F6FD2002CD7F7 /* YXBaseDetailViewController.m */,
+				A6BDEE8A229F6FD2002CD7F7 /* YXBaseModel.h */,
+				A6BDEE84229F6FD1002CD7F7 /* YXBaseModel.m */,
+				A6BDEE78229F6FD1002CD7F7 /* YXBaseTableViewController.h */,
+				A6BDEE82229F6FD1002CD7F7 /* YXBaseTableViewController.m */,
+				A6BDEE85229F6FD1002CD7F7 /* YXBaseVC.bundle */,
+				A6BDEE83229F6FD1002CD7F7 /* YXBaseVCHeader.h */,
+				A6BDEE8B229F6FD2002CD7F7 /* YXWeakScriptMessageDelegate.h */,
+				A6BDEE77229F6FD1002CD7F7 /* YXWeakScriptMessageDelegate.m */,
+				A6BDEE80229F6FD1002CD7F7 /* YXWebViewController.h */,
+				A6BDEE79229F6FD1002CD7F7 /* YXWebViewController.m */,
 			);
 			name = Classes;
 			path = ../../Classes;
 			sourceTree = "<group>";
 		};
-		A6BDEDF7229EA60D002CD7F7 /* Category */ = {
+		A6BDEE74229F6FD1002CD7F7 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				A6BDEDF8229EA60D002CD7F7 /* UIView+Extension.h */,
-				A6BDEDF9229EA60D002CD7F7 /* UIView+Extension.m */,
+				A6BDEE75229F6FD1002CD7F7 /* UIView+Extension.h */,
+				A6BDEE76229F6FD1002CD7F7 /* UIView+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		A6BDEE02229EA60D002CD7F7 /* Common */ = {
+		A6BDEE7A229F6FD1002CD7F7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				A6BDEE03229EA60D002CD7F7 /* MyControl.h */,
-				A6BDEE04229EA60D002CD7F7 /* CommonTools.m */,
-				A6BDEE05229EA60D002CD7F7 /* CommonTools.h */,
-				A6BDEE06229EA60D002CD7F7 /* MyControl.m */,
+				A6BDEE7B229F6FD1002CD7F7 /* MyControl.h */,
+				A6BDEE7E229F6FD1002CD7F7 /* MyControl.m */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		A6BDEE46229EA8E3002CD7F7 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				A6BDEE47229EA8E3002CD7F7 /* MJExtension */,
-				A6BDEE5D229EA8E3002CD7F7 /* FDFullscreenPopGesture */,
-				A6BDEE63229EA8E3002CD7F7 /* DZNEmptyDataSet */,
-			);
-			path = Lib;
-			sourceTree = SOURCE_ROOT;
-		};
-		A6BDEE47229EA8E3002CD7F7 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				A6BDEE48229EA8E3002CD7F7 /* MJPropertyKey.h */,
-				A6BDEE49229EA8E3002CD7F7 /* NSObject+MJClass.h */,
-				A6BDEE4A229EA8E3002CD7F7 /* NSString+MJExtension.h */,
-				A6BDEE4B229EA8E3002CD7F7 /* MJPropertyType.m */,
-				A6BDEE4C229EA8E3002CD7F7 /* NSObject+MJProperty.h */,
-				A6BDEE4D229EA8E3002CD7F7 /* MJExtensionConst.h */,
-				A6BDEE4E229EA8E3002CD7F7 /* NSObject+MJKeyValue.m */,
-				A6BDEE4F229EA8E3002CD7F7 /* MJProperty.m */,
-				A6BDEE50229EA8E3002CD7F7 /* MJFoundation.h */,
-				A6BDEE51229EA8E3002CD7F7 /* NSObject+MJCoding.m */,
-				A6BDEE52229EA8E3002CD7F7 /* MJExtension.h */,
-				A6BDEE53229EA8E3002CD7F7 /* MJExtensionConst.m */,
-				A6BDEE54229EA8E3002CD7F7 /* NSObject+MJProperty.m */,
-				A6BDEE55229EA8E3002CD7F7 /* MJPropertyType.h */,
-				A6BDEE56229EA8E3002CD7F7 /* NSObject+MJClass.m */,
-				A6BDEE57229EA8E3002CD7F7 /* NSString+MJExtension.m */,
-				A6BDEE58229EA8E3002CD7F7 /* MJPropertyKey.m */,
-				A6BDEE59229EA8E3002CD7F7 /* MJProperty.h */,
-				A6BDEE5A229EA8E3002CD7F7 /* NSObject+MJKeyValue.h */,
-				A6BDEE5B229EA8E3002CD7F7 /* NSObject+MJCoding.h */,
-				A6BDEE5C229EA8E3002CD7F7 /* MJFoundation.m */,
-			);
-			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		A6BDEE5D229EA8E3002CD7F7 /* FDFullscreenPopGesture */ = {
-			isa = PBXGroup;
-			children = (
-				A6BDEE5E229EA8E3002CD7F7 /* LICENSE */,
-				A6BDEE5F229EA8E3002CD7F7 /* FDFullscreenPopGesture */,
-				A6BDEE62229EA8E3002CD7F7 /* README.md */,
-			);
-			path = FDFullscreenPopGesture;
-			sourceTree = "<group>";
-		};
-		A6BDEE5F229EA8E3002CD7F7 /* FDFullscreenPopGesture */ = {
-			isa = PBXGroup;
-			children = (
-				A6BDEE60229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.h */,
-				A6BDEE61229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.m */,
-			);
-			path = FDFullscreenPopGesture;
-			sourceTree = "<group>";
-		};
-		A6BDEE63229EA8E3002CD7F7 /* DZNEmptyDataSet */ = {
-			isa = PBXGroup;
-			children = (
-				A6BDEE64229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.m */,
-				A6BDEE65229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.h */,
-			);
-			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
 		A6F22114228BFAEB0099127F = {
@@ -274,6 +184,8 @@
 				A6F22138228BFAED0099127F /* YXBaseProjectTests */,
 				A6F22143228BFAED0099127F /* YXBaseProjectUITests */,
 				A6F2211E228BFAEB0099127F /* Products */,
+				403D820516E1561F13404804 /* Pods */,
+				203706BE3E6A86DE9A39E606 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,7 +202,6 @@
 		A6F2211F228BFAEB0099127F /* YXBaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				A6BDEE46229EA8E3002CD7F7 /* Lib */,
 				A6BDEDF4229EA60D002CD7F7 /* Classes */,
 				A6F22120228BFAEB0099127F /* AppDelegate.h */,
 				A6F22121228BFAEB0099127F /* AppDelegate.m */,
@@ -332,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6F22149228BFAED0099127F /* Build configuration list for PBXNativeTarget "YXBaseProject" */;
 			buildPhases = (
+				75F63C63F221668760C50F26 /* [CP] Check Pods Manifest.lock */,
 				A6F22119228BFAEB0099127F /* Sources */,
 				A6F2211A228BFAEB0099127F /* Frameworks */,
 				A6F2211B228BFAEB0099127F /* Resources */,
@@ -428,12 +340,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BDEE72229EA8E3002CD7F7 /* README.md in Resources */,
-				A6BDEE30229EA60D002CD7F7 /* YXBaseVC.bundle in Resources */,
+				A6BDEE94229F6FD2002CD7F7 /* YXBaseVC.bundle in Resources */,
 				A6F2212D228BFAED0099127F /* LaunchScreen.storyboard in Resources */,
 				A6F2212A228BFAED0099127F /* Assets.xcassets in Resources */,
 				A6F22128228BFAEB0099127F /* Main.storyboard in Resources */,
-				A6BDEE70229EA8E3002CD7F7 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,37 +363,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75F63C63F221668760C50F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6F22119228BFAEB0099127F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BDEE67229EA8E3002CD7F7 /* NSObject+MJKeyValue.m in Sources */,
-				A6BDEE66229EA8E3002CD7F7 /* MJPropertyType.m in Sources */,
-				A6BDEE2E229EA60D002CD7F7 /* UIView+Extension.m in Sources */,
-				A6BDEE45229EA60D002CD7F7 /* YXBaseModel.m in Sources */,
-				A6BDEE34229EA60D002CD7F7 /* YXWebViewController.m in Sources */,
-				A6BDEE71229EA8E3002CD7F7 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
-				A6BDEE31229EA60D002CD7F7 /* YXBaseTableViewController.m in Sources */,
+				A6BDEE8C229F6FD2002CD7F7 /* UIView+Extension.m in Sources */,
+				A6BDEE93229F6FD2002CD7F7 /* YXBaseModel.m in Sources */,
+				A6BDEE96229F6FD2002CD7F7 /* NavigationViewController.m in Sources */,
+				A6BDEE92229F6FD2002CD7F7 /* YXBaseTableViewController.m in Sources */,
+				A6BDEE91229F6FD2002CD7F7 /* BaseViewController.m in Sources */,
 				A6F22125228BFAEB0099127F /* ViewController.m in Sources */,
-				A6BDEE6E229EA8E3002CD7F7 /* MJPropertyKey.m in Sources */,
-				A6BDEE6B229EA8E3002CD7F7 /* NSObject+MJProperty.m in Sources */,
-				A6BDEE68229EA8E3002CD7F7 /* MJProperty.m in Sources */,
-				A6BDEE33229EA60D002CD7F7 /* MyControl.m in Sources */,
-				A6BDEE73229EA8E3002CD7F7 /* UIScrollView+EmptyDataSet.m in Sources */,
+				A6BDEE95229F6FD2002CD7F7 /* YXBaseDetailViewController.m in Sources */,
+				A6BDEE90229F6FD2002CD7F7 /* MyControl.m in Sources */,
+				A6BDEE8D229F6FD2002CD7F7 /* YXWeakScriptMessageDelegate.m in Sources */,
 				A6F22130228BFAED0099127F /* main.m in Sources */,
-				A6BDEE6A229EA8E3002CD7F7 /* MJExtensionConst.m in Sources */,
-				A6BDEE6D229EA8E3002CD7F7 /* NSString+MJExtension.m in Sources */,
-				A6BDEE6C229EA8E3002CD7F7 /* NSObject+MJClass.m in Sources */,
-				A6BDEE6F229EA8E3002CD7F7 /* MJFoundation.m in Sources */,
-				A6BDEE32229EA60D002CD7F7 /* CommonTools.m in Sources */,
 				A6F22122228BFAEB0099127F /* AppDelegate.m in Sources */,
-				A6BDEE43229EA60D002CD7F7 /* YXBaseDetailViewController.m in Sources */,
-				A6BDEE44229EA60D002CD7F7 /* NavigationViewController.m in Sources */,
-				A6BDEE69229EA8E3002CD7F7 /* NSObject+MJCoding.m in Sources */,
 				A6F22183228C03080099127F /* YXNewWebViewController.m in Sources */,
-				A6BDEE2F229EA60D002CD7F7 /* BaseViewController.m in Sources */,
-				A6BDEE2D229EA60D002CD7F7 /* YXWeakScriptMessageDelegate.m in Sources */,
+				A6BDEE8E229F6FD2002CD7F7 /* YXWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +574,7 @@
 		};
 		A6F2214A228BFAED0099127F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E840A0D904850AAA2F1689 /* Pods-YXBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -670,6 +593,7 @@
 		};
 		A6F2214B228BFAED0099127F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A17C9F72ACA091BED9C5D0C /* Pods-YXBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
