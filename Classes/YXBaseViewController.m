@@ -6,12 +6,12 @@
 //  Copyright © 2017年 Tao_Lee. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "YXBaseViewController.h"
 
 #import "UINavigationController+FDFullscreenPopGesture.h"
 
 
-@interface BaseViewController ()
+@interface YXBaseViewController ()
 {
     BOOL _statusBarHidden;
     UIStatusBarStyle _statusBarStyle;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation BaseViewController
+@implementation YXBaseViewController
 
 
 - (instancetype)init{
@@ -95,9 +95,11 @@
 
 - (void)showLightStatusBarStyle{
     _statusBarStyle = UIStatusBarStyleLightContent;
+    [self setNeedsStatusBarAppearanceUpdate];
 }
 - (void)showDarkStatusBarStyle{
     _statusBarStyle = UIStatusBarStyleDefault;
+    [self setNeedsStatusBarAppearanceUpdate];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle{

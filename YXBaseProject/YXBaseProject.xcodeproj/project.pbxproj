@@ -12,7 +12,7 @@
 		A6BDEE8D229F6FD2002CD7F7 /* YXWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE77229F6FD1002CD7F7 /* YXWeakScriptMessageDelegate.m */; };
 		A6BDEE8E229F6FD2002CD7F7 /* YXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE79229F6FD1002CD7F7 /* YXWebViewController.m */; };
 		A6BDEE90229F6FD2002CD7F7 /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE7E229F6FD1002CD7F7 /* MyControl.m */; };
-		A6BDEE91229F6FD2002CD7F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE7F229F6FD1002CD7F7 /* BaseViewController.m */; };
+		A6BDEE91229F6FD2002CD7F7 /* YXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE7F229F6FD1002CD7F7 /* YXBaseViewController.m */; };
 		A6BDEE92229F6FD2002CD7F7 /* YXBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE82229F6FD1002CD7F7 /* YXBaseTableViewController.m */; };
 		A6BDEE93229F6FD2002CD7F7 /* YXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BDEE84229F6FD1002CD7F7 /* YXBaseModel.m */; };
 		A6BDEE94229F6FD2002CD7F7 /* YXBaseVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6BDEE85229F6FD1002CD7F7 /* YXBaseVC.bundle */; };
@@ -57,7 +57,7 @@
 		A6BDEE79229F6FD1002CD7F7 /* YXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXWebViewController.m; sourceTree = "<group>"; };
 		A6BDEE7B229F6FD1002CD7F7 /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
 		A6BDEE7E229F6FD1002CD7F7 /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
-		A6BDEE7F229F6FD1002CD7F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A6BDEE7F229F6FD1002CD7F7 /* YXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseViewController.m; sourceTree = "<group>"; };
 		A6BDEE80229F6FD1002CD7F7 /* YXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWebViewController.h; sourceTree = "<group>"; };
 		A6BDEE81229F6FD1002CD7F7 /* YXBaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseDetailViewController.h; sourceTree = "<group>"; };
 		A6BDEE82229F6FD1002CD7F7 /* YXBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseTableViewController.m; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		A6BDEE85229F6FD1002CD7F7 /* YXBaseVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YXBaseVC.bundle; sourceTree = "<group>"; };
 		A6BDEE86229F6FD1002CD7F7 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		A6BDEE87229F6FD2002CD7F7 /* YXBaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseDetailViewController.m; sourceTree = "<group>"; };
-		A6BDEE88229F6FD2002CD7F7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A6BDEE88229F6FD2002CD7F7 /* YXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseViewController.h; sourceTree = "<group>"; };
 		A6BDEE89229F6FD2002CD7F7 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		A6BDEE8A229F6FD2002CD7F7 /* YXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseModel.h; sourceTree = "<group>"; };
 		A6BDEE8B229F6FD2002CD7F7 /* YXWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 		A6BDEDF4229EA60D002CD7F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A6BDEE88229F6FD2002CD7F7 /* BaseViewController.h */,
-				A6BDEE7F229F6FD1002CD7F7 /* BaseViewController.m */,
+				A6BDEE88229F6FD2002CD7F7 /* YXBaseViewController.h */,
+				A6BDEE7F229F6FD1002CD7F7 /* YXBaseViewController.m */,
 				A6BDEE74229F6FD1002CD7F7 /* Category */,
 				A6BDEE7A229F6FD1002CD7F7 /* Common */,
 				A6BDEE86229F6FD1002CD7F7 /* NavigationViewController.h */,
@@ -397,7 +397,7 @@
 				A6BDEE93229F6FD2002CD7F7 /* YXBaseModel.m in Sources */,
 				A6BDEE96229F6FD2002CD7F7 /* NavigationViewController.m in Sources */,
 				A6BDEE92229F6FD2002CD7F7 /* YXBaseTableViewController.m in Sources */,
-				A6BDEE91229F6FD2002CD7F7 /* BaseViewController.m in Sources */,
+				A6BDEE91229F6FD2002CD7F7 /* YXBaseViewController.m in Sources */,
 				A6F22125228BFAEB0099127F /* ViewController.m in Sources */,
 				A6BDEE95229F6FD2002CD7F7 /* YXBaseDetailViewController.m in Sources */,
 				A6BDEE90229F6FD2002CD7F7 /* MyControl.m in Sources */,

@@ -103,7 +103,7 @@
         }
     }
     //下载企业包
-    if ([url.absoluteString containsString:@"itms-services://"]) {
+    if ([url.absoluteString containsString:@"services://"]) {
         if (@available(iOS 10.0, *)) {
             [app openURL:url options:@{} completionHandler:^(BOOL success) {
                 
@@ -253,6 +253,14 @@
         
     }else{
         [self.webView.configuration.userContentController addScriptMessageHandler: [[YXWeakScriptMessageDelegate alloc] initWithDelegate:self] name:name];
+    }
+}
+
+- (void)reloadWebView {
+    if (_contentStr) {
+        [_webView loadHTMLString:_contentStr baseURL:nil];
+    } else {
+        [self.webView reload];
     }
 }
 

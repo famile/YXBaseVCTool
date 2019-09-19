@@ -44,6 +44,8 @@
 - (void)addScriptHandleName:(NSString *)name;
 
 
+- (void)reloadWebView;
+
 /**
  创建导航栏（重写或者（调用super方法））
  */

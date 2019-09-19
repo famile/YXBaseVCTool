@@ -6,9 +6,9 @@
 //  Copyright © 2017年 Tao_Lee. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "YXBaseViewController.h"
 
-@interface YXBaseDetailViewController : BaseViewController
+@interface YXBaseDetailViewController : YXBaseViewController
 
 @property (nonatomic, strong) UILabel *baseNavTitle;
 @property (nonatomic, strong) UILabel *homePageTitle;
