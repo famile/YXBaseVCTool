@@ -327,7 +327,7 @@
 
 - (void)createNav{
     WS(ws)
-    NSString *bundlePath = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"YXBaseVC.bundle"];
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"YXBaseVC.bundle"];
     
     
     NSString *img_path = [[NSBundle bundleWithPath:bundlePath] pathForResource:@"yx_back@2x" ofType:@"png"];
